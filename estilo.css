@@ -8,8 +8,15 @@ h1{
     text-align: center;
 font-size: 3rem
 }
+p:hover{
+    z-index: 4;
+}
 p.arriba{
+    width: 70%;
+position: absolute;
     text-align: center;
+    left: 15%;
+    height: 8%;
     background-color: sandybrown;
     border-color: brown;
     border-width: 3px;
@@ -20,6 +27,11 @@ p.arriba{
 
 }
 p.esquina1{
+width: 35%;
+height: 25%;
+position: absolute;
+top: 25%;
+left: 8%;
 text-align: left;
 background-color: #FFFF80;
 border-color: #D6D643;
@@ -29,6 +41,11 @@ padding: 15px;
 font-size: 1.5rem;
 }
 p.esquina2{
+    position: absolute;
+    top: 25%;
+    right: 8%;
+    width: 35%;
+    height: 25%;
     text-align: right;
     background-color:#CCFFFF ;
     border-color:#9FC6C6 ;
@@ -39,6 +56,11 @@ p.esquina2{
 
 }
 p.centro{
+    width: 40%;
+height: 25%;
+position: absolute;
+top: 40%;
+left: 30%;
     text-align: center;
     background-color:#80FF80  ;
     border-color:#367D36 ;
@@ -46,9 +68,18 @@ p.centro{
     border-style: solid;
     padding: 15px;
     font-size: 1.5rem;
+    z-index: 2;
+    
+    
 
 }
+
 p.esquina3{
+    width: 35%;
+height: 25%;
+position: absolute;
+top: 60%;
+left: 8%;
     text-align: left;
     background-color:#FFE6FF ;
     border-color:#BEA7BE ;
@@ -58,6 +89,11 @@ p.esquina3{
     font-size: 1.5rem;
 }
 p.esquina4{
+    position: absolute;
+    top: 60%;
+    right: 8%;
+    width: 35%;
+    height: 25%;
     text-align: right;
     background-color: #FFB3B3;
     border-color: #7C5C5C;
